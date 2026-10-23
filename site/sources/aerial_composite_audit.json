@@ -1,0 +1,47 @@
+{
+  "site": "silver_walnut_creek",
+  "created_utc": "2026-10-22T18:50:19.775285+00:00",
+  "operation": "Authoritative NYS ortho RGBA reprojected to exact pan bounds over prepared terrain",
+  "source": "sites/silver_walnut_creek/context/aerial_2021_rgba.png",
+  "source_receipt": "sites/silver_walnut_creek/context/imagery_rgba_extent.json",
+  "source_export_url": "https://orthos.its.ny.gov/arcgis/rest/services/wms/2021/MapServer/export?f=json&bbox=646572.9704778504%2C4709845.470413181%2C651622.9704778504%2C4714105.470413181&bboxSR=32617&imageSR=32617&size=4096%2C3455&format=png32&dpi=96&transparent=true&adjustAspectRatio=false",
+  "source_sha256": "294c368510b0e1a3439d3b13b29b05a33d02c93f1e7b6913948096527b33ede4",
+  "source_bounds": [
+    646572.7953693122,
+    4709845.470413181,
+    651623.1455863889,
+    4714105.470413181
+  ],
+  "source_size": [
+    4096,
+    3455
+  ],
+  "crs": "EPSG:32617",
+  "pan_bounds": [
+    646572.9704778504,
+    4709845.470413181,
+    651622.9704778504,
+    4714105.470413181
+  ],
+  "output_size": [
+    5050,
+    4260
+  ],
+  "resampling": "GDAL bilinear with src_alpha=4 and dst_alpha=4",
+  "alpha_provenance": "Authoritative ArcGIS export alpha from transparent=true and format=png32. No white/color threshold applied.",
+  "white_pixel_heuristic": false,
+  "transparent_output_pixels": 6389356,
+  "opaque_output_pixels": 15123644,
+  "terrain_preserved_before_lossy_encoding": true,
+  "opaque_source_preserved_before_lossy_encoding": true,
+  "background_sha256": "d979ef3a2d725ccd9232e5576a0f99cc92aaf509dd65c6368579ae7e55a2bcca",
+  "previous_derived_aerial_sha256": "7229c6bf803946e49893e7fc93124389f6bbfc0c6331414ecb85639ec6d6e909",
+  "output": "packages/silver_walnut_creek/site/assets/aerial_2021.jpg",
+  "output_sha256": "7229c6bf803946e49893e7fc93124389f6bbfc0c6331414ecb85639ec6d6e909",
+  "jpeg_quality": 95,
+  "original_jpeg_preserved": true,
+  "protected_sources_modified": false,
+  "attribution": "2021 orthoimagery: NYS ITS Geospatial Services",
+  "terms_url": "https://gis.ny.gov/orthoimagery",
+  "temporal_note": "Context imagery, not evidence of November 2020 flooding."
+}

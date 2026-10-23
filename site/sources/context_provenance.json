@@ -1,0 +1,262 @@
+{
+  "site": "silver_walnut_creek",
+  "created_utc": "2026-10-22T18:21:17.727532+00:00",
+  "crs": "EPSG:32617",
+  "geojson_crs": "EPSG:4326",
+  "aoi_bounds": [
+    646572.9704778504,
+    4709845.470413181,
+    651622.9704778504,
+    4714105.470413181
+  ],
+  "core_bounds": [
+    649072.9704778504,
+    4710845.470413181,
+    651622.9704778504,
+    4713105.470413181
+  ],
+  "sources": {
+    "buildings_microsoft": {
+      "provider": "Microsoft",
+      "source": "https://github.com/microsoft/GlobalMLBuildingFootprints",
+      "index_url": "https://bfppub.blob.core.windows.net/%24web/2026-08-13/dataset-links.csv",
+      "license": "CDLA-Permissive-2.0",
+      "license_url": "https://cdla.dev/permissive-2-0/",
+      "feature_count": 1885,
+      "attribution": "Microsoft Global ML Building Footprints (CDLA Permissive 2.0)",
+      "partitions": [
+        {
+          "quadkey": "030223311",
+          "region": "UnitedStates",
+          "url": "https://bfppub.z5.web.core.windows.net/2026-08-13/global-buildings.geojsonl/RegionName=UnitedStates/quadkey=030223311/part-00042-110f5303-ff85-4c71-a2bf-c6070024fec8.c000.csv.gz",
+          "retained": 0,
+          "source_cache": "data/context_extended/source_cache/microsoft_UnitedStates_030223311_1248463cb271.geojsonl.gz",
+          "sha256": "9f4e37a7fa55a30910694f2f33fb7a50080de536b27abfd16336475de7de4617",
+          "index_row": {
+            "Location": "UnitedStates",
+            "QuadKey": "030223311",
+            "Url": "https://bfppub.z5.web.core.windows.net/2026-08-13/global-buildings.geojsonl/RegionName=UnitedStates/quadkey=030223311/part-00042-110f5303-ff85-4c71-a2bf-c6070024fec8.c000.csv.gz",
+            "Size": "29.5MB",
+            "UploadDate": "2026-08-13"
+          }
+        },
+        {
+          "quadkey": "030223313",
+          "region": "UnitedStates",
+          "url": "https://bfppub.z5.web.core.windows.net/2026-08-13/global-buildings.geojsonl/RegionName=UnitedStates/quadkey=030223313/part-00070-110f5303-ff85-4c71-a2bf-c6070024fec8.c000.csv.gz",
+          "retained": 1885,
+          "source_cache": "data/context_extended/source_cache/microsoft_UnitedStates_030223313_baa65705af01.geojsonl.gz",
+          "sha256": "34e3e0a2b8e49f879304f135605aa0825f2c633a8637680f486a786cdd3e05e1",
+          "index_row": {
+            "Location": "UnitedStates",
+            "QuadKey": "030223313",
+            "Url": "https://bfppub.z5.web.core.windows.net/2026-08-13/global-buildings.geojsonl/RegionName=UnitedStates/quadkey=030223313/part-00070-110f5303-ff85-4c71-a2bf-c6070024fec8.c000.csv.gz",
+            "Size": "9.1MB",
+            "UploadDate": "2026-08-13"
+          }
+        }
+      ],
+      "acquisition": "Read-only local cached partitions; no download",
+      "identity": "SHA256 of normalized full source geometry before display clipping; original IDs retained in source_ids",
+      "temporal_note": "Contemporary database snapshot 2026-08-13; not verified as the November 2020 building inventory."
+    },
+    "buildings": {
+      "provider": "Microsoft",
+      "source": "https://github.com/microsoft/GlobalMLBuildingFootprints",
+      "index_url": "https://bfppub.blob.core.windows.net/%24web/2026-08-13/dataset-links.csv",
+      "license": "CDLA-Permissive-2.0",
+      "license_url": "https://cdla.dev/permissive-2-0/",
+      "feature_count": 1885,
+      "attribution": "Microsoft Global ML Building Footprints (CDLA Permissive 2.0)",
+      "partitions": [
+        {
+          "quadkey": "030223311",
+          "region": "UnitedStates",
+          "url": "https://bfppub.z5.web.core.windows.net/2026-08-13/global-buildings.geojsonl/RegionName=UnitedStates/quadkey=030223311/part-00042-110f5303-ff85-4c71-a2bf-c6070024fec8.c000.csv.gz",
+          "retained": 0,
+          "source_cache": "data/context_extended/source_cache/microsoft_UnitedStates_030223311_1248463cb271.geojsonl.gz",
+          "sha256": "9f4e37a7fa55a30910694f2f33fb7a50080de536b27abfd16336475de7de4617",
+          "index_row": {
+            "Location": "UnitedStates",
+            "QuadKey": "030223311",
+            "Url": "https://bfppub.z5.web.core.windows.net/2026-08-13/global-buildings.geojsonl/RegionName=UnitedStates/quadkey=030223311/part-00042-110f5303-ff85-4c71-a2bf-c6070024fec8.c000.csv.gz",
+            "Size": "29.5MB",
+            "UploadDate": "2026-08-13"
+          }
+        },
+        {
+          "quadkey": "030223313",
+          "region": "UnitedStates",
+          "url": "https://bfppub.z5.web.core.windows.net/2026-08-13/global-buildings.geojsonl/RegionName=UnitedStates/quadkey=030223313/part-00070-110f5303-ff85-4c71-a2bf-c6070024fec8.c000.csv.gz",
+          "retained": 1885,
+          "source_cache": "data/context_extended/source_cache/microsoft_UnitedStates_030223313_baa65705af01.geojsonl.gz",
+          "sha256": "34e3e0a2b8e49f879304f135605aa0825f2c633a8637680f486a786cdd3e05e1",
+          "index_row": {
+            "Location": "UnitedStates",
+            "QuadKey": "030223313",
+            "Url": "https://bfppub.z5.web.core.windows.net/2026-08-13/global-buildings.geojsonl/RegionName=UnitedStates/quadkey=030223313/part-00070-110f5303-ff85-4c71-a2bf-c6070024fec8.c000.csv.gz",
+            "Size": "9.1MB",
+            "UploadDate": "2026-08-13"
+          }
+        }
+      ],
+      "acquisition": "Read-only local cached partitions; no download",
+      "identity": "SHA256 of normalized full source geometry before display clipping; original IDs retained in source_ids",
+      "temporal_note": "Contemporary database snapshot 2026-08-13; not verified as the November 2020 building inventory.",
+      "selected_file": "buildings_microsoft.geojson"
+    },
+    "roads": {
+      "provider": "NYS ITS Geospatial Services",
+      "service": "https://nysgeohub.ny.gov/arcgis/rest/services/Transportation/NYS_Streets/MapServer/4",
+      "query_urls": [
+        "https://nysgeohub.ny.gov/arcgis/rest/services/Transportation/NYS_Streets/MapServer/4/query?f=geojson&where=1%3D1&geometry=-79.22036357050412%2C42.5224474378909%2C-79.14782970868097%2C42.56912273259316&geometryType=esriGeometryEnvelope&inSR=4326&outSR=4326&spatialRel=esriSpatialRelIntersects&outFields=%2A&returnGeometry=true&resultRecordCount=5000&resultOffset=0"
+      ],
+      "feature_count": 281,
+      "copyright": "",
+      "description": "A vector line file of public/private streets compiled from orthoimagery and other sources that is attributed with street names, addresses, route numbers, routing attributes, and includes a related table of alternate/alias street names.   If the purpose of using NYS Streets is for geocoding, the New York State Office of Information Technology Services (NYS ITS) has a publicly available geocoding service which includes the NYS Streets along with other layers. For more information about the geocoding service, please visit https://gis.ny.gov/nys-geocoding-service.   For more information about the SAM Program, please visit: https://gis.ny.gov/streets-addresses.   Publication Date: See Update Frequency.  Current as of Date: 2 business days prior to Publication Date.   Update frequency: Second and fourth Fridays of each month.   This map service is available to the public.   Spatial Reference of Source Data: NAD_1983_UTM_Zone_18N.   Spatial Reference of Map Service: WGS 1984 Web Mercator Auxiliary Sphere.NYS ITS Geospatial Services | Telephone: (518) 242-5029 | Email: its.sm.SAM.Maintenance@its.ny.gov",
+      "attribution": "NYS ITS Geospatial Services",
+      "terms_url": "https://gis.ny.gov/shareGIS/",
+      "temporal_note": "Current service download; context is not a historical November 2020 inventory."
+    },
+    "imagery": {
+      "file": "aerial_2021.jpg",
+      "bounds": [
+        646572.7953693122,
+        4709845.470413181,
+        651623.1455863889,
+        4714105.470413181
+      ],
+      "crs": "EPSG:32617",
+      "width": 4096,
+      "height": 3455,
+      "service": "https://orthos.its.ny.gov/arcgis/rest/services/wms/2021/MapServer",
+      "export_url": "https://orthos.its.ny.gov/arcgis/rest/services/wms/2021/MapServer/export?f=json&bbox=646572.9704778504%2C4709845.470413181%2C651622.9704778504%2C4714105.470413181&bboxSR=32617&imageSR=32617&size=4096%2C3455&format=jpg&dpi=96&transparent=false&adjustAspectRatio=false",
+      "attribution": "2021 orthoimagery: NYS ITS Geospatial Services",
+      "copyright": "NYS ITS Geospatial Services",
+      "terms_url": "https://gis.ny.gov/orthoimagery",
+      "temporal_note": "2021 orthoimagery is context only and is not evidence of November 2020 flooding.",
+      "requested_bounds": [
+        646572.9704778504,
+        4709845.470413181,
+        651622.9704778504,
+        4714105.470413181
+      ],
+      "pixel_size_m": [
+        1.2329956584659953,
+        1.2329956584659914
+      ],
+      "returned_extent_checked": true,
+      "max_extent_mismatch_m": 0.1751085384748876,
+      "use_returned_extent": true,
+      "image_channel_stddev": [
+        62.181467525380974,
+        61.10293068755142,
+        62.156443363586334
+      ],
+      "sha256": "ec30ea3c8a8947e0af10e8fba387ee8f1d9f4ec547ede05764cfd1fe755ec516"
+    },
+    "imagery_rgba": {
+      "file": "aerial_2021_rgba.png",
+      "source": "NYS ITS Geospatial Services 2021 orthoimagery",
+      "service": "https://orthos.its.ny.gov/arcgis/rest/services/wms/2021/MapServer",
+      "export_url": "https://orthos.its.ny.gov/arcgis/rest/services/wms/2021/MapServer/export?f=json&bbox=646572.9704778504%2C4709845.470413181%2C651622.9704778504%2C4714105.470413181&bboxSR=32617&imageSR=32617&size=4096%2C3455&format=png32&dpi=96&transparent=true&adjustAspectRatio=false",
+      "retrieved_utc": "2026-10-22T18:34:06.233345+00:00",
+      "bounds": [
+        646572.7953693122,
+        4709845.470413181,
+        651623.1455863889,
+        4714105.470413181
+      ],
+      "requested_bounds": [
+        646572.9704778504,
+        4709845.470413181,
+        651622.9704778504,
+        4714105.470413181
+      ],
+      "crs": "EPSG:32617",
+      "width": 4096,
+      "height": 3455,
+      "pixel_size_m": [
+        1.2329956584659953,
+        1.2329956584659914
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_pixels": 4203146,
+      "transparent_fraction": 0.2970068571363965,
+      "opaque_pixels": 9948534,
+      "partially_transparent_pixels": 0,
+      "mask_definition": "Authoritative ArcGIS export alpha from transparent=true and format=png32. No white/color threshold applied.",
+      "sha256": "294c368510b0e1a3439d3b13b29b05a33d02c93f1e7b6913948096527b33ede4",
+      "attribution": "2021 orthoimagery: NYS ITS Geospatial Services",
+      "temporal_note": "Context imagery, not evidence of November 2020 flooding.",
+      "terms_url": "https://gis.ny.gov/orthoimagery"
+    }
+  },
+  "context_bounds": [
+    646172.9704778504,
+    4709445.470413181,
+    652022.9704778504,
+    4714505.470413181
+  ],
+  "complete": true,
+  "retrieved_utc": "2026-10-22T18:50:47.500732+00:00",
+  "labels_included": false,
+  "hashes": {
+    "buildings.geojson": "47b775fcd518cceae0c31855cf1d16f3e09792d3bbf7f4a3788e76d681d05c7e",
+    "buildings_microsoft.geojson": "47b775fcd518cceae0c31855cf1d16f3e09792d3bbf7f4a3788e76d681d05c7e",
+    "roads.geojson": "127c2c5bdfd9dc85da0e582b7b88524b427e6d56fd4f7424201613ea0f7546cf",
+    "aerial_2021.jpg": "ec30ea3c8a8947e0af10e8fba387ee8f1d9f4ec547ede05764cfd1fe755ec516",
+    "MICROSOFT_BUILDINGS_LICENSE.txt": "4531a67d443284d93ffed0803df5b10634aff21c3d77e381f2d48af01d875868"
+  },
+  "derived_aerial": {
+    "site": "silver_walnut_creek",
+    "created_utc": "2026-10-22T18:50:19.775285+00:00",
+    "operation": "Authoritative NYS ortho RGBA reprojected to exact pan bounds over prepared terrain",
+    "source": "sites/silver_walnut_creek/context/aerial_2021_rgba.png",
+    "source_receipt": "sites/silver_walnut_creek/context/imagery_rgba_extent.json",
+    "source_export_url": "https://orthos.its.ny.gov/arcgis/rest/services/wms/2021/MapServer/export?f=json&bbox=646572.9704778504%2C4709845.470413181%2C651622.9704778504%2C4714105.470413181&bboxSR=32617&imageSR=32617&size=4096%2C3455&format=png32&dpi=96&transparent=true&adjustAspectRatio=false",
+    "source_sha256": "294c368510b0e1a3439d3b13b29b05a33d02c93f1e7b6913948096527b33ede4",
+    "source_bounds": [
+      646572.7953693122,
+      4709845.470413181,
+      651623.1455863889,
+      4714105.470413181
+    ],
+    "source_size": [
+      4096,
+      3455
+    ],
+    "crs": "EPSG:32617",
+    "pan_bounds": [
+      646572.9704778504,
+      4709845.470413181,
+      651622.9704778504,
+      4714105.470413181
+    ],
+    "output_size": [
+      5050,
+      4260
+    ],
+    "resampling": "GDAL bilinear with src_alpha=4 and dst_alpha=4",
+    "alpha_provenance": "Authoritative ArcGIS export alpha from transparent=true and format=png32. No white/color threshold applied.",
+    "white_pixel_heuristic": false,
+    "transparent_output_pixels": 6389356,
+    "opaque_output_pixels": 15123644,
+    "terrain_preserved_before_lossy_encoding": true,
+    "opaque_source_preserved_before_lossy_encoding": true,
+    "background_sha256": "d979ef3a2d725ccd9232e5576a0f99cc92aaf509dd65c6368579ae7e55a2bcca",
+    "previous_derived_aerial_sha256": "7229c6bf803946e49893e7fc93124389f6bbfc0c6331414ecb85639ec6d6e909",
+    "output": "packages/silver_walnut_creek/site/assets/aerial_2021.jpg",
+    "output_sha256": "7229c6bf803946e49893e7fc93124389f6bbfc0c6331414ecb85639ec6d6e909",
+    "jpeg_quality": 95,
+    "original_jpeg_preserved": true,
+    "protected_sources_modified": false,
+    "attribution": "2021 orthoimagery: NYS ITS Geospatial Services",
+    "terms_url": "https://gis.ny.gov/orthoimagery",
+    "temporal_note": "Context imagery, not evidence of November 2020 flooding."
+  }
+}

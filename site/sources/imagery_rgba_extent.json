@@ -1,0 +1,40 @@
+{
+  "file": "aerial_2021_rgba.png",
+  "source": "NYS ITS Geospatial Services 2021 orthoimagery",
+  "service": "https://orthos.its.ny.gov/arcgis/rest/services/wms/2021/MapServer",
+  "export_url": "https://orthos.its.ny.gov/arcgis/rest/services/wms/2021/MapServer/export?f=json&bbox=646572.9704778504%2C4709845.470413181%2C651622.9704778504%2C4714105.470413181&bboxSR=32617&imageSR=32617&size=4096%2C3455&format=png32&dpi=96&transparent=true&adjustAspectRatio=false",
+  "retrieved_utc": "2026-10-22T18:34:06.233345+00:00",
+  "bounds": [
+    646572.7953693122,
+    4709845.470413181,
+    651623.1455863889,
+    4714105.470413181
+  ],
+  "requested_bounds": [
+    646572.9704778504,
+    4709845.470413181,
+    651622.9704778504,
+    4714105.470413181
+  ],
+  "crs": "EPSG:32617",
+  "width": 4096,
+  "height": 3455,
+  "pixel_size_m": [
+    1.2329956584659953,
+    1.2329956584659914
+  ],
+  "mode": "RGBA",
+  "alpha_extrema": [
+    0,
+    255
+  ],
+  "transparent_pixels": 4203146,
+  "transparent_fraction": 0.2970068571363965,
+  "opaque_pixels": 9948534,
+  "partially_transparent_pixels": 0,
+  "mask_definition": "Authoritative ArcGIS export alpha from transparent=true and format=png32. No white/color threshold applied.",
+  "sha256": "294c368510b0e1a3439d3b13b29b05a33d02c93f1e7b6913948096527b33ede4",
+  "attribution": "2021 orthoimagery: NYS ITS Geospatial Services",
+  "temporal_note": "Context imagery, not evidence of November 2020 flooding.",
+  "terms_url": "https://gis.ny.gov/orthoimagery"
+}
